@@ -206,7 +206,7 @@ MIT License
 
 ---## Installation
 
-### Option 1: pip
+Option 1: pip
 ```bash
 pip install -r requirements.txt
 
