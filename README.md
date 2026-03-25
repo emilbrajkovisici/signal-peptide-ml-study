@@ -187,8 +187,8 @@ If you use this work, please cite:
 
 ##  Author
 
-Jadranko Batista
-Emil Brajković
+J B
+E B
 
 ---
 
@@ -204,4 +204,17 @@ MIT License
 * BioPython library
 * scikit-learn ecosystem
 
----
+---## Installation
+
+### Option 1: pip
+```bash
+pip install -r requirements.txt
+
+Option 2: conda
+conda env create -f environment.yml
+conda activate signal-peptide-ml
+
+Option 3: Docker
+docker build -t signal-peptide-ml .
+docker run -p 8888:8888 -v "$(pwd)":/app signal-peptide-ml
+
